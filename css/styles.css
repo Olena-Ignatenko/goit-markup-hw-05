@@ -622,7 +622,6 @@ img {
   font-size: 12px;
   line-height: 1.17em; /* 116.667% */
   letter-spacing: 0.04em;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   color: var(--color-light-slate);
