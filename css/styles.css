@@ -506,10 +506,12 @@ img {
 .modal-close:hover,
 .modal-close:focus {
   background-color: #404bbf;
+  border: none;
 }
 
-.modal-close-icon:hover,
-.modal-close-icon:focus {
+
+.modal-close:hover .modal-close-icon,
+.modal-close:focus .modal-close-icon {
   fill: #fff;
 }
 
@@ -635,7 +637,7 @@ img {
 .modal-check-input:checked + .modal-check-text .modal-check-box {
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
 }
 
 .modal-button-submit {
@@ -716,10 +718,12 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em; /* 150% */
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   color: #fff;
   border: none;
   cursor: pointer;
+  min-width: 165px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer-subscribe-icon {
