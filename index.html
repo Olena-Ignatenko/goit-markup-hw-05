@@ -72,7 +72,7 @@
                 </svg>
               </div>
               <h3 class="subtitle">Strategy</h3>
-              <p class="text">
+              <p class="advantage-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -84,7 +84,7 @@
                 </svg>
               </div>
               <h3 class="subtitle">Punctuality</h3>
-              <p class="text">
+              <p class="advantage-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -96,7 +96,7 @@
                 </svg>
               </div>
               <h3 class="subtitle">Diligence</h3>
-              <p class="text">
+              <p class="advantage-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -108,7 +108,7 @@
                 </svg>
               </div>
               <h3 class="subtitle">Technologies</h3>
-              <p class="text">
+              <p class="advantage-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -293,7 +293,7 @@
               </div>
               <div class="portfolio-text">
                 <h3 class="subtitle">Banking App</h3>
-                <p class="text">App</p>
+                <p class="text-description">App</p>
               </div>
             </li>
             <li class="portfolio-item">
@@ -312,7 +312,7 @@
               </div>
               <div class="portfolio-text">
                 <h3 class="subtitle">Cashless Payment</h3>
-                <p class="text">Marketing</p>
+                <p class="text-description">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
@@ -331,7 +331,7 @@
               </div>
               <div class="portfolio-text">
                 <h3 class="subtitle">Meditation App</h3>
-                <p class="text">App</p>
+                <p class="text-description">App</p>
               </div>
             </li>
             <li class="portfolio-item">
@@ -350,7 +350,7 @@
               </div>
               <div class="portfolio-text">
                 <h3 class="subtitle">Taxi Service</h3>
-                <p class="text">Marketing</p>
+                <p class="text-description">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
@@ -369,7 +369,7 @@
               </div>
               <div class="portfolio-text">
                 <h3 class="subtitle">Screen Illustrations</h3>
-                <p class="text">Design</p>
+                <p class="text-description">Design</p>
               </div>
             </li>
             <li class="portfolio-item">
@@ -388,7 +388,7 @@
               </div>
               <div class="portfolio-text">
                 <h3 class="subtitle">Online Courses</h3>
-                <p class="text">Marketing</p>
+                <p class="text-description">Marketing</p>
               </div>
             </li>
           </ul>
@@ -442,5 +442,60 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black">
+            </use>
+          </svg>  
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-wrapper">
+            <label class="modal-label" for="user-name">Name</label>
+            <div class="modal-icon-wrapper">
+              <input class="modal-input" type="text" name="user-name" id="user-name" autofocus/>
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-wrapper">
+            <label class="modal-label" for="phone">Phone</label> 
+            <div class="modal-icon-wrapper">              
+              <input class="modal-input" type="tel" name="phone" id="icon-phone" />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>  
+            </div>
+          </div>
+          <div class="modal-wrapper">
+            <label class="modal-label" for="email">Email</label> 
+            <div class="modal-icon-wrapper">              
+              <input class="modal-input" type="email" name="email" id="icon-email" />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>  
+            </div>
+          </div>
+          <div class="field-comment">
+            <label class="modal-label" for="user-comment">Comment</label> 
+            <textarea class="modal-textarea" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+          </div>
+          <div class="modal-check-wrapper">
+            <input class="modal-check-input visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+            <label class="modal-check-text" for="user-privacy">
+                <span class="modal-check-box">
+                    <svg class="modal-icon-check" width="16" height="16">
+                        <use href="./images/icons.svg#icon-Checkbox"></use>
+                    </svg>
+                </span>
+                I accept the terms and conditions of the
+                <a class="modal-link-text" href="">Privacy Policy</a></label>
+          </div>           
+        </form>
+
   </body>
 </html>
